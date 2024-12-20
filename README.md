@@ -24,7 +24,7 @@ Discovered the inadequate cycling networks at specific streets which contributes
 Proposed improvements to cycle tracks, traffic controls, and information sharing to cyclists  =
 1) Improve cycle tracks on seven streets
 
-![image](https://github.com/user-attachments/assets/64b3f05b-e730-49c1-a480-a8250d32b10d)
+![image](https://github.com/user-attachments/assets/4c2b8107-3840-4c6e-a6d6-fec11e4a2520)
 
 2) Install traffic lights at specific intersections
    
