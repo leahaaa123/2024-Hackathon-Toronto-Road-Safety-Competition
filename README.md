@@ -31,7 +31,7 @@ The cycling collision injury rate is significantly higher at 75%, compared to lo
 #### 1. Traffic control
 - The primary reason for bicycle collisions is lack of control
   
-<img src="https://github.com/user-attachments/assets/45647e78-0a3c-4431-ad7a-4b4cbe104f0f" alt="Dashboard Screenshot" width="800"/>
+<img src="https://github.com/user-attachments/assets/45647e78-0a3c-4431-ad7a-4b4cbe104f0f" alt="Dashboard Screenshot" width="400"/>
 
 
 #### 2. Lack of connectivity between cycling networks
