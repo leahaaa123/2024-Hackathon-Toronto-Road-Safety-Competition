@@ -11,13 +11,12 @@ Analyzed cyclist collisions and provided Toronto Police Service with safety sugg
 ▪ Achievement: Champion honor achieved from SAS institute, and Toronto Police Service
 
 ## Business Problem
-Conducted Time-series analysis to identify high-peak month/time of bicycle collisions
-![image](https://github.com/user-attachments/assets/1be898ff-152c-4abb-abeb-b5536d257649)
-The number of collisions related to cyclists has steadily increased each year since the pandemic.
-Meanwhile, the number of total collisions fell by 15% in the period 2019 to 2023
 
-![image](https://github.com/user-attachments/assets/22c9d4c8-89f7-4f12-b346-db578c020b80)
-![image](https://github.com/user-attachments/assets/be4f0718-6524-4bd3-812f-b8555eb00e43)
+Since the onset of the pandemic, the number of bicycle-related collisions has steadily increased, while total collision rates have declined by 15% between 2019 and 2023. The cycling collision injury rate is significantly higher at 68%, compared to lower injury rates for automotive/motorcycle collisions, which stand at below 12%.
+
+![image](https://github.com/user-attachments/assets/1be898ff-152c-4abb-abeb-b5536d257649)
+
+
 
 ## Data Analysis : Key Findings
 
