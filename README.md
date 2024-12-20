@@ -53,7 +53,8 @@ Increase traffic control in areas with high numbers of “no traffic control” 
    
 <img src="https://github.com/user-attachments/assets/0cdc0df2-2b1e-42a2-8ff5-aa0bc4bf9fd5" alt="Dashboard Screenshot" width="500"/>
 
-### 3) Improve Information sharing with an app :recommendation the safest routes based on traffic collision data
+### 3) Improve Information sharing with an app 
+recommendation the safest routes based on traffic collision data
 
 
 
