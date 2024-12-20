@@ -17,6 +17,7 @@ Conducted Time-series analysis to identify high-peak month/time of bicycle colli
 
 ## Data Analysis
 Discovered the inadequate cycling networks at specific streets which contributes to collisions
+![image](https://github.com/user-attachments/assets/e244c458-83bd-463d-a068-d695cb78fa35)
 
 
 ## Solution: Recommendation
