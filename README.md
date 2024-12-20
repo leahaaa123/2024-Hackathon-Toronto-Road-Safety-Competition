@@ -41,19 +41,20 @@ The cycling collision injury rate is significantly higher at 75%, compared to lo
 
 ## Solution: Recommendation
 
-1) Improve cycle tracks on seven streets
+### 1) Improve cycle tracks on seven streets
+
 Improve cyclist safety with seamless integration between cycling lanes
 
 <img src="https://github.com/user-attachments/assets/20dd81c4-a96e-44a7-a7c5-10a7d489e641" alt="Dashboard Screenshot" width="500"/>
 
-2) Install traffic lights at specific intersections
+### 2) Install traffic lights at specific intersections
+
 Increase traffic control in areas with high numbers of “no traffic control” collisions
    
 <img src="https://github.com/user-attachments/assets/0cdc0df2-2b1e-42a2-8ff5-aa0bc4bf9fd5" alt="Dashboard Screenshot" width="500"/>
 
-3) Improve Information sharing with an app :recommendation the safest routes based on traffic collision data
+### 3) Improve Information sharing with an app :recommendation the safest routes based on traffic collision data
 
-<img src="https://github.com/user-attachments/assets/ed791199-e49a-402c-846c-e3410c62d47b" alt="Dashboard Screenshot" width="300"/>
 
 
 ​​​ 
