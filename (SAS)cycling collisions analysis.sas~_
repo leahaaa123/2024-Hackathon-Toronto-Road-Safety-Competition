@@ -1,0 +1,81 @@
+proc import
+	  Datafile= '/home/u63571741/Practice/Traffic_Collisions_Open_Data_(ASR-T-TBL-001).csv'
+	  out = collisions
+	  replace;
+	  Getnames=Yes;
+run;
+
+/*see the types of Data*/
+proc contents data=collisions ;
+run;
+
+proc freq data=collisions;
+    table BICYCLE;
+run;
+/*Data cleansing for analysis*/
+data collisions;
+    set collisions;
+    if BICYCLE = 'N/' then delete;
+    if AUTOMOBILE = 'N/' then delete;
+    if MOTORCYCLE = 'N/' then delete;
+run;
+
+/* Calculate Injury rate by vehicle */
+proc sql;
+    create table injury_rates as
+    select 
+        sum(case when AUTOMOBILE = 'YES' and INJURY_COLLISIONS = 'YES' then 1 else 0 end) / sum(case when AUTOMOBILE = 'YES' then 1 else 0 end) as automobile_injury_rate,
+        sum(case when MOTORCYCLE = 'YE' and INJURY_COLLISIONS = 'YES' then 1 else 0 end) / sum(case when MOTORCYCLE = 'YE' then 1 else 0 end) as motorcycle_injury_rate,
+        sum(case when BICYCLE = 'YE' and INJURY_COLLISIONS = 'YES' then 1 else 0 end) / sum(case when BICYCLE = 'YE' then 1 else 0 end) as bicycle_injury_rate
+ 	from collisions;
+quit;
+proc print data= injury_rates;
+run;
+
+data collisions2;
+    set collisions;
+    if BICYCLE = 'YE' then BICYCLE = 1;
+    else if BICYCLE = 'NO' then BICYCLE = 0;
+
+    if AUTOMOBILE = 'YES' then AUTOMOBILE = 1;
+    else if AUTOMOBILE = 'NO' then AUTOMOBILE = 0;
+
+    if MOTORCYCLE = 'YE' then MOTORCYCLE = 1;
+    else if MOTORCYCLE = 'NO' then MOTORCYCLE = 0;
+    
+    if INJURY_COLLISIONS = 'YES' then MOTORCYCLE = 1;
+    else if INJURY_COLLISIONS= 'NO' then MOTORCYCLE = 0;
+run;
+
+/* chiSquare. Correlation between Coolisions or Fatalities and vehicles*/
+/* Bicycle*/
+proc freq data=collisions;
+	tables BICYCLE*FATALITIES / chisq;
+run;
+
+proc freq data=collisions;
+	tables BICYCLE*INJURY_COLLISIONS / chisq;
+		
+run;
+/* Automobile*/
+proc freq data=collisions;
+	tables AUTOMOBILE*FATALITIES / chisq;
+		
+run;
+
+proc freq data=collisions;
+	tables AUTOMOBILE*INJURY_COLLISIONS / chisq;
+		
+run;
+/* Motorcycle*/
+proc freq data=collisions;
+	tables MOTORCYCLE*FATALITIES / chisq;
+run;
+		
+proc freq data=collisions;
+	tables MOTORCYCLE*INJURY_COLLISIONS / chisq;
+		
+run;
+proc corr data=collisions nosimple;
+    title 'Correlation between all columns';
+run;
