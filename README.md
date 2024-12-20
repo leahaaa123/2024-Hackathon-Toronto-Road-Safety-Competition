@@ -1,5 +1,5 @@
 # 2024 Hackathon Toronto Road Safety Competition
-Analyzed cyclist collisions and provided Toronto Police Service with safety suggestion in 2024 SAS Hackathon ]
+Analyzed cyclist collisions and provided Toronto Police Service with safety suggestion in 2024 SAS Hackathon 
 
 ## Project Overview
 ▪ Data Analysis: Statistical & Time-series & Geographical analysis
