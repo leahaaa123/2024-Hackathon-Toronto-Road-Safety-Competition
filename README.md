@@ -31,7 +31,7 @@ The cycling collision injury rate is significantly higher at 75%, compared to lo
 #### 1. Traffic control
 - The primary reason for bicycle collisions is lack of control
   
-![image](https://github.com/user-attachments/assets/e1a17651-af7f-4f97-8c1a-9752e9e33cd6)
+
 
 #### 2. Lack of connectivity between cycling networks
 - Bicycle collisions mainly occurred horizontally aligned with Cycle Track
@@ -40,15 +40,20 @@ The cycling collision injury rate is significantly higher at 75%, compared to lo
 ![image](https://github.com/user-attachments/assets/e244c458-83bd-463d-a068-d695cb78fa35)
 
 ## Solution: Recommendation
-Proposed improvements to cycle tracks, traffic controls, and information sharing to cyclists  
-1) Improve cycle tracks on seven streets
 
-![image](https://github.com/user-attachments/assets/4c2b8107-3840-4c6e-a6d6-fec11e4a2520)
+1) Improve cycle tracks on seven streets
+Improve cyclist safety with seamless integration between cycling lanes
+
+<img src="https://github.com/user-attachments/assets/20dd81c4-a96e-44a7-a7c5-10a7d489e641" alt="Dashboard Screenshot" width="500"/>
 
 2) Install traffic lights at specific intersections
+Increase traffic control in areas with high numbers of “no traffic control” collisions
    
-<img src="https://github.com/user-attachments/assets/3ac01ed5-3caf-4dbf-b915-9af663d278fb" alt="Dashboard Screenshot" width="500"/>
+<img src="https://github.com/user-attachments/assets/0cdc0df2-2b1e-42a2-8ff5-aa0bc4bf9fd5" alt="Dashboard Screenshot" width="500"/>
 
 3) Improve Information sharing with an app :recommendation the safest routes based on traffic collision data
+
+<img src="https://github.com/user-attachments/assets/ed791199-e49a-402c-846c-e3410c62d47b" alt="Dashboard Screenshot" width="300"/>
+
 
 ​​​ 
