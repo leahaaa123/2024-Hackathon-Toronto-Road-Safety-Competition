@@ -12,9 +12,15 @@ Analyzed cyclist collisions and provided Toronto Police Service with safety sugg
 
 ## Business Problem
 
-Since the onset of the pandemic, the number of bicycle-related collisions has steadily increased, while total collision rates have declined by 15% between 2019 and 2023. The cycling collision injury rate is significantly higher at 68%, compared to lower injury rates for automotive/motorcycle collisions, which stand at below 12%.
+Since the onset of the pandemic, the number of bicycle-related collisions has steadily increased, while total collision rates have declined by 15% between 2019 and 2023. 
 
-<img src="https://github.com/user-attachments/assets/1be898ff-152c-4abb-abeb-b5536d257649" alt="Dashboard Screenshot" width="600"/>
+<img src="https://github.com/user-attachments/assets/84224d94-1939-4b50-a7ce-2cc9be09ffc1" alt="Dashboard Screenshot" width="500"/>
+<img src="https://github.com/user-attachments/assets/0ca4e60b-9453-4c91-9825-d8f239c6bbc2" alt="Dashboard Screenshot" width="500"/>
+
+
+The cycling collision injury rate is significantly higher at 68%, compared to lower injury rates for automotive/motorcycle collisions, which stand at below 12%.
+
+<img src="https://github.com/user-attachments/assets/1be898ff-152c-4abb-abeb-b5536d257649" alt="Dashboard Screenshot" width="700"/>
 
 
 
