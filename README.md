@@ -1,7 +1,11 @@
 # 2024 Hackathon Toronto Road Safety Competition
-Analyzed cyclist collisions and provided Toronto Police Service with safety suggestion in 2024 SAS Hackathon 
+
 
 ## Project Overview
+
+2024 SAS Hackathon was hosted by SAS institute and Toronto Police Service(TPS) in March 2024.
+Analyzed cyclist collisions and provided Toronto Police Service with safety suggestion in 2024 SAS Hackathon.
+
 ▪ Data Analysis: Statistical & Time-series & Geographical analysis
 
 ▪ Analytics Tool: Python, Tableau, SAS
