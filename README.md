@@ -18,7 +18,7 @@ Since the onset of the pandemic, the number of bicycle-related collisions has st
 <img src="https://github.com/user-attachments/assets/0ca4e60b-9453-4c91-9825-d8f239c6bbc2" alt="Dashboard Screenshot" width="500" height="300"/>
 
 
-The cycling collision injury rate is significantly higher at 68%, compared to lower injury rates for automotive/motorcycle collisions, which stand at below 12%.
+The cycling collision injury rate is significantly higher at 75%, compared to lower injury rates for automotive/motorcycle collisions, which stand at below 12%.
 
 <img src="https://github.com/user-attachments/assets/1be898ff-152c-4abb-abeb-b5536d257649" alt="Dashboard Screenshot" width="700"/>
 
